@@ -17,8 +17,8 @@ int main()
 
     int a, x, t, y, matrix[100][100];
     int n = 4, m = 8;
-    int p[] = {1, 2, 5, 6};
-    int w[] = {2, 3, 4, 5};
+    int p[] = {0,1, 2, 5, 6};
+    int w[] = {0,2, 3, 4, 5};
 
     for (int j = 0; j < m; j++)
         matrix[0][j] = 0;
