@@ -26,7 +26,7 @@ int main()
             if (wt[i] <= w)
                 matrix[i][w] = max((p[i] + matrix[i - 1][w - wt[i]]), matrix[i - 1][w]);
 
-                    else matrix[i][w] = matrix[i - 1][w];
+            else matrix[i][w] = matrix[i - 1][w];
         }
 
     cout << "\nOptimal Solution for this knapsack is " << matrix[n][m] << endl;
